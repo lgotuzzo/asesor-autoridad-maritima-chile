@@ -1,0 +1,14 @@
+interface:
+  display_name: Asesor Autoridad Marítima Chile
+  short_description: Asesoría marítima institucional para Chile
+  default_prompt: Usa $asesorar-autoridad-maritima-chile para analizar esta decisión
+    de la Autoridad Marítima con normativa vigente y fuentes oficiales.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
